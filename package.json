@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio-website",
+  "name": "david-courtis-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://relativelyfine.github.io/portfolio/",
+  "homepage": ".",
   "dependencies": {
     "-": "^0.0.1",
     "@emailjs/browser": "^3.6.2",
