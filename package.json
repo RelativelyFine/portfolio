@@ -15,6 +15,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "gh-pages": "^4.0.0",
+    "gsap": "^3.10.4",
     "gsap-trial": "^3.10.4",
     "leaflet": "^1.7.1",
     "loaders.css": "^0.1.2",
@@ -33,7 +34,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
