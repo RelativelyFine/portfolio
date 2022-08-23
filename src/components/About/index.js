@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
+  faDiscord,
   faCss3,
   faGitAlt,
   faHtml5,
@@ -39,8 +39,9 @@ const About = () => {
             and general experience in the field of software development.
           </p>
           <p align="LEFT">
-            I'm a ambitious, exceptionally curious, and dedicated to improving
-            my skills and earning industry experience.
+            I'm an ambitious, exceptionally curious, and dedicated programmer
+            when it comes to improving my skills and earning industry
+            experience.
           </p>
           <p>
             Currently in my third year of undergraduate studies, I am well
@@ -52,15 +53,15 @@ const About = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faDiscord} color="#5662f6" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
             </div>
             <div className="face4">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            </div>
+            <div className="face2">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             </div>
             <div className="face5">

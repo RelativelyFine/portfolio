@@ -4,7 +4,7 @@
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 40%;
+    width: 80%;
     max-height: 90%;
   }
 
@@ -80,4 +80,24 @@
   }
 }
 
+@media screen and (max-width: 761px) {
+  .logo-container {
+    position: absolute;
+    top: -75%;
+    width: 20vh;
+    height: 20vh;
+  }
+  :root .tags {
+    bottom: 10vh;
+    left: 27px;
+  }
 
+  :root .top-tags {
+    top: 7vh
+  }
+
+  :root .page {
+    height: 90%
+  }
+  
+}

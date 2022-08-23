@@ -20,7 +20,12 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_8mp8ork', form.current, 'S2nfvu-4865AH_bPF')
+      .sendForm(
+        'service_bs3jeni',
+        'template_8mp8ork',
+        form.current,
+        'S2nfvu-4865AH_bPF'
+      )
       .then(
         () => {
           alert('Message successfully sent!')
@@ -35,7 +40,7 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <div className="text-zone">
+        <div className="text-zone-2">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -85,22 +90,23 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-map">
-          David Courtis
-          <br />
-          <br />
-          148 Pine St,
-          <br />
-          Kingston, ON,
-          <br />
-          Canada, K7K1W8
-          <br />
-          <br />
-          <span>20dhc@queensu.ca</span>
-          <br />
-          <span>+1 (647) 561-1668</span>
-        </div>
+
         <div className="map-wrap">
+          <div className="info-map">
+            David Courtis
+            <br />
+            <br />
+            148 Pine St,
+            <br />
+            Kingston, ON,
+            <br />
+            Canada, K7K1W8
+            <br />
+            <br />
+            <span>20dhc@queensu.ca</span>
+            <br />
+            <span>+1 (647) 561-1668</span>
+          </div>
           <MapContainer center={[44.23906, -76.49532]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[44.23906, -76.49532]}>

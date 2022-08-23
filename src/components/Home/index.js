@@ -11,20 +11,20 @@ const Home = () => {
 
   const nameArray = ['a', 'v', 'i', 'd', ':']
   const jobArray = [
-    'U',
-    'n',
+    'S',
+    't',
+    'u',
     'd',
     'e',
-    'r',
-    'g',
-    'r',
-    'a',
-    'd',
+    'n',
+    't',
     ' ',
     'd',
     'e',
     'v',
     '.',
+    '',
+    '',
   ]
 
   useEffect(() => {
@@ -36,6 +36,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
+        <Logo className="logo" />
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
@@ -61,7 +62,6 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
       </div>
 
       <Loader type="cube-transition" />

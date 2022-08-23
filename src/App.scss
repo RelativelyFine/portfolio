@@ -1,9 +1,9 @@
+@use 'sass:math';
+
 $primary-color: #ffd700;
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
-@import '~loaders.css/src/animations/cube-transition.scss';
-@import '~loaders.css/src/animations/ball-scale-ripple-multiple.scss';
 
 
 @font-face {

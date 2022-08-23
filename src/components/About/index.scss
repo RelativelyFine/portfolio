@@ -15,7 +15,7 @@
   animation-iteration-count: infinite;
   animation-duration: 12s;
   transform-style: preserve-3d;
-  transform-origin: 100px 100px 0;
+  transform-origin: 50px 50px 0;
   margin-left: calc(50% - 100px);
 
   div {
@@ -32,9 +32,9 @@
     box-shadow: 0 0 20px 0px lightyellow;
   }
 
-  .face1 {
+  .face6 {
     transform: translateZ(100px);
-    color: #dd0031;
+    color: #5662f6;
   }
   .face2 {
     transform: rotateY(90deg) translateZ(100px);
@@ -52,7 +52,7 @@
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
     color: #efd81d;
   }
-  .face6 {
+  .face1 {
     transform: rotateX(-90deg) translateZ(100px);
     color: #ec4d28;
   }
@@ -77,5 +77,48 @@
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+
+@media screen and (max-width: 761px) {
+  .stage-cube-cont {
+    width: 80%;
+    height: 50%;
+    top: 0;
+    position: absolute;
+  }
+  .cubespinner {
+    top: 20%;
+    padding-top: 0%;
+    position: absolute;
+    right: 80%;
+  }
+
+  .cubespinner .face1, .cubespinner .face2, .cubespinner .face3, .cubespinner .face4, .cubespinner .face5, .cubespinner .face6 {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+  }
+
+  .cubespinner .face6 {
+    transform: translateZ(25px);
+  }
+  .cubespinner .face2 {
+    transform: rotateY(90deg) translateZ(25px);
+  }
+  .cubespinner .face3 {
+    transform: rotateY(90deg) rotateX(90deg) translateZ(25px);
+  }
+  .cubespinner .face4 {
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(25px);
+  }
+  .cubespinner .face5 {
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(25px);
+  }
+  .cubespinner .face1 {
+    transform: rotateX(-90deg) translateZ(25px);
+  }
+  :root .container.about-page .text-zone  {
+    width: 80%;
   }
 }
