@@ -1,6 +1,6 @@
 # To view the deployed site
 
-Website: https://relativelyfine.github.io
+Website: https://relativelyfine.github.io/portfolio
 
 ## Getting Started with Create React App
 
