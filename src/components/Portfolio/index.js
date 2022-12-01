@@ -5,7 +5,7 @@ import './index.scss'
 import { getDocs, collection } from 'firebase/firestore'
 import { db } from '../../firebase'
 
-const Portfolio = () => {
+const PortfolioProjects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const [portfolio, setPortfolio] = useState([])
 
@@ -69,9 +69,9 @@ const Portfolio = () => {
         </h1>
         <div>{renderPortfolio(portfolio)}</div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-clip-rotate-multiple" />
     </>
   )
 }
 
-export default Portfolio
+export default PortfolioProjects

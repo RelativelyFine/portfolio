@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Popup, Circle } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Contact = () => {
+  const fillBlueOptions = { fillColor: 'blue' }
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
 
@@ -96,28 +97,30 @@ const Contact = () => {
             David Courtis
             <br />
             <br />
-            148 Pine St,
+            ~Queen&lsquo;s University
             <br />
             Kingston, ON,
             <br />
-            Canada, K7K1W8
+            Canada
             <br />
             <br />
             <span>20dhc@queensu.ca</span>
             <br />
             <span>+1 (647) 561-1668</span>
           </div>
-          <MapContainer center={[44.23906, -76.49532]} zoom={13}>
+          <MapContainer center={[44.23506, -76.51832]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.23906, -76.49532]}>
-              <Popup>
-                Plz don't just show up (You don't know the apt number!)
-              </Popup>
-            </Marker>
+            <Circle
+              center={[44.23506, -76.51832]}
+              pathOptions={fillBlueOptions}
+              radius={5000}
+            >
+              <Popup>Close Enough</Popup>
+            </Circle>
           </MapContainer>
         </div>
       </div>
-      <Loader type="ball-scale-ripple-multiple" />
+      <Loader type="triangle-skew-spin" />
     </>
   )
 }

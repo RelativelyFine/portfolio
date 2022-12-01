@@ -5,6 +5,31 @@ $primary-color: #ffd700;
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
 
+@import '~loaders.css/src/animations/ball-pulse.scss';
+@import '~loaders.css/src/animations/ball-grid-pulse.scss';
+@import '~loaders.css/src/animations/ball-clip-rotate.scss';
+@import '~loaders.css/src/animations/ball-clip-rotate-pulse.scss';
+@import '~loaders.css/src/animations/square-spin.scss';
+@import '~loaders.css/src/animations/ball-clip-rotate-multiple.scss';
+@import '~loaders.css/src/animations/ball-pulse-rise.scss';
+@import '~loaders.css/src/animations/ball-rotate.scss';
+@import '~loaders.css/src/animations/cube-transition.scss';
+@import '~loaders.css/src/animations/ball-zig-zag.scss';
+@import '~loaders.css/src/animations/ball-zig-zag-deflect.scss';
+@import '~loaders.css/src/animations/ball-scale.scss';
+@import '~loaders.css/src/animations/line-scale.scss';
+@import '~loaders.css/src/animations/ball-scale-multiple.scss';
+@import '~loaders.css/src/animations/ball-pulse-sync.scss';
+@import '~loaders.css/src/animations/ball-beat.scss';
+@import '~loaders.css/src/animations/line-scale-pulse-out.scss';
+@import '~loaders.css/src/animations/line-scale-pulse-out-rapid.scss';
+@import '~loaders.css/src/animations/ball-scale-ripple.scss';
+@import '~loaders.css/src/animations/ball-scale-ripple-multiple.scss';
+@import '~loaders.css/src/animations/ball-spin-fade-loader.scss';
+@import '~loaders.css/src/animations/line-spin-fade-loader.scss';
+@import '~loaders.css/src/animations/triangle-skew-spin.scss';
+@import '~loaders.css/src/animations/ball-grid-beat.scss';
+@import '~loaders.css/src/animations/semi-circle-spin';
 
 @font-face {
   font-family: 'Helvetica Neue';

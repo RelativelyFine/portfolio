@@ -64,7 +64,7 @@ const Home = () => {
         </div>
       </div>
 
-      <Loader type="cube-transition" />
+      <Loader type="ball-scale-multiple" />
     </>
   )
 }
