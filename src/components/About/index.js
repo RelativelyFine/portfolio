@@ -33,20 +33,24 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a newly established undergrad developer looking for
-            opportinities to hone my elementry developer skills. I am looking
-            for solid internship opportunities for AI/ML, fullstack development,
-            and general experience in the field of software development.
+            AI geek. Creative problem solver. Curious Student. 
+            With a knowledge-hungry mindset and university-driven club and research experience in the AI and SWE space, 
+              I understand the importance of applying and delivering my knowledge to new fields and understanding the technical 
+              and qualitative connections between them.
           </p>
           <p align="LEFT">
-            I'm an ambitious, exceptionally curious, and dedicated programmer
-            when it comes to improving my skills and earning industry
-            experience.
+            My realm: analytical, curious, adaptable, proactive, knowledge-driven, musically inclined (I play piano, saxophone, and flute!)
           </p>
           <p>
-            Currently in my third year of undergraduate studies, I am well
-            defined as a tech-obsessed, heavy-reading, extroverted programmer
-            that has an unholy connection to making good food.
+            I am fascinated about anything data and AI-related, whether I’m solving important economic or social problems, 
+              research and technical exploration, or doing fun and whacky things! 
+              I excel in dynamic and fast-paced environments that promote agility, 
+                innovation, and a focus on applying data to novel environments.
+          </p>
+          <p>
+            If you’re interested in collaborating or connecting, I'm always down for side projects and hackathons, 
+so please reach out to me if you would like to team up! If you know of any opportunity, would like to give advice, 
+  or just want to connect and chat, please reach out!!
           </p>
         </div>
 
