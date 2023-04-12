@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.95c49ef2.css",
-    "main.js": "/portfolio/static/js/main.fbdde7d9.js",
+    "main.css": "/portfolio/static/css/main.51bc8e58.css",
+    "main.js": "/portfolio/static/js/main.70d31a98.js",
     "static/js/988.49ed0046.chunk.js": "/portfolio/static/js/988.49ed0046.chunk.js",
     "static/media/helvetica-neu.ttf": "/portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff": "/portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
     "static/media/LaBelleAurore.woff2": "/portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/logo-s.png": "/portfolio/static/media/logo-s.18ca055fbb8b1bb9797a.png",
     "static/media/CoolveticaRg-Regular.woff": "/portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/logo_sub.png": "/portfolio/static/media/logo_sub.ca56ebae6322642f6b2f.png",
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/python.svg": "/portfolio/static/media/python.af4b6d45f652824e97cdcd305b065579.svg",
     "static/media/vs.svg": "/portfolio/static/media/vs.3369422dfade20c8eb7b55665fdc8190.svg",
     "index.html": "/portfolio/index.html",
     "static/media/tf.svg": "/portfolio/static/media/tf.7a27db043183a5d3571e338ab500f742.svg",
     "static/media/torch.svg": "/portfolio/static/media/torch.9189bc89c46f3a5c93f3ecbd88127211.svg",
-    "main.95c49ef2.css.map": "/portfolio/static/css/main.95c49ef2.css.map",
-    "main.fbdde7d9.js.map": "/portfolio/static/js/main.fbdde7d9.js.map",
+    "main.51bc8e58.css.map": "/portfolio/static/css/main.51bc8e58.css.map",
+    "main.70d31a98.js.map": "/portfolio/static/js/main.70d31a98.js.map",
     "988.49ed0046.chunk.js.map": "/portfolio/static/js/988.49ed0046.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95c49ef2.css",
-    "static/js/main.fbdde7d9.js"
+    "static/css/main.51bc8e58.css",
+    "static/js/main.70d31a98.js"
   ]
 }
